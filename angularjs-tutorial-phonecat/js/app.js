@@ -3,7 +3,9 @@
  */
 var phonecatApp = angular.module('phonecatApp', [
     'ngRoute',
-    'phonecatControllers'
+    'phonecatControllers',
+    'phonecatFilters',
+    'phonecatServices'
 ]);
 
 phonecatApp.config(['$routeProvider',
@@ -21,3 +23,4 @@ phonecatApp.config(['$routeProvider',
                 redirectTo: '/phones'
             });
     }]);
+
