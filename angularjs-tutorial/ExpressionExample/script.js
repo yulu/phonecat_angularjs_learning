@@ -12,4 +12,16 @@ angular.module('expressionExample', [])
         $scope.removeExp = function(index) {
             exprs.splice(index, 1);
         };
+    }])
+    .controller('EventController', ['$scope', function($scope) {
+        var counter = 0;
+        var names = ['igor', 'Misko', 'Chirayu', 'Lucas'];
+
+        /*
+         * expose the event object to the scope
+         */
+        $scope.clickMe = function(clickEvent) {
+            $scope.name = names[counter % names.length];
+            counter++;
+        };
     }]);
