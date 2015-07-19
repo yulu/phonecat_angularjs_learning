@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/angularjs-tutorial/angularjs-tutorial.iml" filepath="$PROJECT_DIR$/angularjs-tutorial/angularjs-tutorial.iml" />
-      <module fileurl="file://$PROJECT_DIR$/angularjs-tutorial-phonecat/angularjs-tutorial-phonecat.iml" filepath="$PROJECT_DIR$/angularjs-tutorial-phonecat/angularjs-tutorial-phonecat.iml" />
     </modules>
   </component>
 </project>
