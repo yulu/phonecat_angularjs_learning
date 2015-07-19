@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Directive Example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.4/angular.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body ng-app="directiveExample">
+    <div ng-controller="Controller">
+        Hello <input ng-model="name"> <hr/>
+        <span ng-bind="name"></span> <br />
+        <span ng:bind="name"></span> <br />
+        <span ng_bind="name"></span> <br />
+        <span data-ng-bind="name"></span> <br />
+        <span x-ng-bind="name"></span> <br />
+    </div>
+</body>
+</html>
